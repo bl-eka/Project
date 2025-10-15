@@ -1,10 +1,13 @@
 // Multiplication.java
+package com.example.calculator;
+
 public class Multiplication extends Operation {
     public Multiplication(double operand1, double operand2) {
         super(operand1, operand2);
-    }@Override
+    }
+
+    @Override
     public double calculate() {
         return operand1 * operand2;
     }
-
 }
